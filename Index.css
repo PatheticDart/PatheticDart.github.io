@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(209, 169, 117);
+}
+
+p{
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#jorge
+{
+    color:aqua;
+    transition: color 0.25s;
+    transition: background-color 1s;
+}
+
+#jorge:hover {
+    color: black;
+    background-color: rgb(0, 255, 13);
+}
+
+.shoo{
+    width: 100%;
+}
+
+#wa{
+    background-color:rgb(117, 123, 209);
+}
+
+#wa .shoo{
+    color:rgb(255, 0, 0)
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #ff8888;
+    border-radius: 90%;
+}
+
+.wow{
+    background-color:rgb(235, 55, 55);
+    width: 50%;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    border: 15px solid #000000;
+}
+
+@keyframes lmaooo {
+    0%{
+        background-color:rgb(255, 255, 255)
+    }
+    50%{
+        background-color:rgb(255, 97, 97)
+    }
+    100%{
+        background-color:rgb(255, 0, 0);
+    }
+}
+
+.wow:hover {
+    background-color:rgb(255, 140, 140);
+    animation:lmaooo 5s 0s both;
+}
+
+.wow h1{
+    font-size: 70px;
+    font-family: 'Comic Sans MS';
+    margin: 0;
+    position: relative;
+    top: 30px;
+}
